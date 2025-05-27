@@ -1,0 +1,12 @@
+{
+  "name": "apologize",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "miniprogram-ci preview",
+    "build": "miniprogram-ci build"
+  },
+  "dependencies": {
+    "miniprogram-ci": "^1.9.8"
+  }
+}
