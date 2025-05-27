@@ -1,0 +1,13 @@
+
+.container {
+  padding: 30rpx;
+}
+.section {
+  margin-bottom: 30rpx;
+}
+.result {
+  margin-top: 40rpx;
+  padding: 20rpx;
+  background-color: #f5f5f5;
+  border-radius: 10rpx;
+}

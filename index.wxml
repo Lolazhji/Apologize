@@ -1,0 +1,28 @@
+
+<view class="container">
+  <view class="section">
+    <picker mode="selector" range="{{relationshipOptions}}" bindchange="onRelationshipChange">
+      <view class="picker">关系类型：{{relationshipLabel}}</view>
+    </picker>
+  </view>
+
+  <view class="section">
+    <picker mode="selector" range="{{styleOptions}}" bindchange="onStyleChange">
+      <view class="picker">道歉风格：{{styleLabel}}</view>
+    </picker>
+  </view>
+
+  <view class="section">
+    <textarea placeholder="请输入事件简述..." value="{{scenario}}" bindinput="onScenarioInput"></textarea>
+  </view>
+
+  <view class="section">
+    <input placeholder="对方称呼（可选）" value="{{nickname}}" bindinput="onNicknameInput"/>
+  </view>
+
+  <button bindtap="generateApology">生成道歉语</button>
+
+  <view wx:if="{{result}}" class="result">
+    <text>{{result}}</text>
+  </view>
+</view>
