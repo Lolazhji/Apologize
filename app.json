@@ -1,0 +1,9 @@
+
+{
+  "pages": [
+    "pages/index/index"
+  ],
+  "window": {
+    "navigationBarTitleText": "不低头道歉机"
+  }
+}
